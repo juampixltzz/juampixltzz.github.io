@@ -161,7 +161,7 @@ footer {
       display:flex;
       align-items:center;
       justify-content:center;
-      background: url(IMG/1.avif)no-repeat center/cover;
+      background: url(1.avif)no-repeat center/cover;
     }
 
 .box2{
@@ -170,7 +170,7 @@ footer {
       display:flex;
       align-items:center;
       justify-content:center;
-      background: url(IMG/2.avif) no-repeat center/cover;
+      background: url(2.avif) no-repeat center/cover;
     }
 .box3{
         background-color:#333;
@@ -178,7 +178,7 @@ footer {
         display:flex;
         align-items:center;
         justify-content:center;
-        background: url(IMG/3.avif) no-repeat center/cover;
+        background: url(3.avif) no-repeat center/cover;
       }
 .box4{
         background-color:#333;
@@ -186,7 +186,7 @@ footer {
         display:flex;
         align-items:center;
         justify-content:center;
-        background: url(IMG/4.avif) no-repeat center/cover;
+        background: url(4.avif) no-repeat center/cover;
       }
     
 .text-container {
