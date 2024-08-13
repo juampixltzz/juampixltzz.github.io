@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto -  Nicoletta Caffe</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Italiana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gupter:wght@400;500;700&family=Italiana&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logoheader.png" alt="Logo de Nicoletta Cafetería" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contacto">
+            <h2 class="un">¡VENI A VISITARNOS!</h2>
+            <p class="do">Nos encontramos en Av. de Mayo 825, CABA</p>
+            <p class="tre">De Lunes a Viernes, 8:00 AM - 8:00 PM</p>
+            <p class="cua"></p>
+    </main>
+    <section class="form">
+            <h2 class="fh2">Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="fecha">Fecha de Reserva:</label>
+                <input type="date" id="fecha" name="fecha">
+
+                <fieldset>
+                    <legend>Tipo de Consulta:</legend>
+                    <label><input type="radio" name="tipo_consulta" value="reserva" required> Reserva</label>
+                    <label><input type="radio" name="tipo_consulta" value="consulta"> Consulta General</label>
+                    <label><input type="radio" name="tipo_consulta" value="otro"> Otro</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Intereses:</legend>
+                    <label><input type="checkbox" name="interes_cafe" value="cafe"> Cafetería</label>
+                    <label><input type="checkbox" name="interes_postres" value="postres">Desayunos</label>
+                    <label><input type="checkbox" name="interes_eventos" value="eventos"> Eventos</label>
+                </fieldset>
+
+                <label for="opcion">¿Cómo nos conociste?</label>
+                <input list="opciones" id="opcion" name="opcion">
+                <datalist id="opciones">
+                    <option value="Redes Sociales">
+                    <option value="Recomendación">
+                    <option value="Publicidad">
+                    <option value="Otro">
+                </datalist>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+    </section>
+    <section class="redes">
+            <h2 class="fh2">Síguenos en Redes Sociales</h2>
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/grancafetortoni/?locale=es_LA">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/grancafetortoni/">Instagram</a></li>
+                </ul>
+            </nav>
+    </section>
+
+    <footer>
+        <p>Desarrollado por Juan Pablo Di Battista. © 2024 Nicoletta Caffe.</p>
+    </footer>
+</body>
+</html>

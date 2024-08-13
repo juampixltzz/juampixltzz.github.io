@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("back.jpg");
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 45px;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    background-color: #33333300;
+}
+
+.logo-img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-family:"Gupter", sans-serif;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: wheat;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+div {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+span {
+    color: #555;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+ul, ol {
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family:"Gupter", sans-serif;
+    font-style: bold;
+}
+
+.gupter-regular {
+    font-family: "Gupter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.nostra {
+    font-family: "Gupter", sans-serif;
+    size: 40px;
+}
+
+.nostra1 {
+    font-family: "Gupter", sans-serif;
+    size: 500px;
+}
+
+.texth3 {
+    font: "Gupter", sans-serif;
+    font-style: normal;
+}
